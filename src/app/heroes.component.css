@@ -7,6 +7,7 @@
     list-style-type: none;
     padding: 0;
     width: 15em;
+    float:left;
   }
   .heroes li {
     cursor: pointer;
@@ -45,3 +46,10 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
   }
+  .ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
